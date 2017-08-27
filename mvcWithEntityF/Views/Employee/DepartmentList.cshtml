@@ -1,0 +1,34 @@
+﻿@model IEnumerable<mvcWithEntityF.Models.Department>
+@using mvcWithEntityF.Models;
+@{
+    ViewBag.Title = "DepartmentList";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h2>DepartmentList</h2>
+<table class="table">
+    <tr>
+        <th>
+            @Html.DisplayNameFor(model => model.Name)
+        </th>
+        
+    </tr>
+
+    @foreach (Department dept in @Model)
+    {
+    <tr>
+        <td>
+           @dept.Name
+        </td>
+        
+        <td>
+            @Html.ActionLink("Edit", "Index", new { id = dept.DepartmentId }) |
+            @Html.ActionLink("Details", "Details", new { id = dept.DepartmentId }) |
+            @Html.ActionLink("Delete", "Delete", new { id = dept.DepartmentId }) |
+        </td>
+    </tr>
+
+    }
+
+</table>
+

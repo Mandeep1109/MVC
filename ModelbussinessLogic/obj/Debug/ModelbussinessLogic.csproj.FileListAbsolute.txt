@@ -1,0 +1,5 @@
+D:\mvc Practice\mvcWithEntityF\ModelbussinessLogic\bin\Debug\ModelbussinessLogic.dll
+D:\mvc Practice\mvcWithEntityF\ModelbussinessLogic\bin\Debug\ModelbussinessLogic.pdb
+D:\mvc Practice\mvcWithEntityF\ModelbussinessLogic\obj\Debug\ModelbussinessLogic.dll
+D:\mvc Practice\mvcWithEntityF\ModelbussinessLogic\obj\Debug\ModelbussinessLogic.pdb
+D:\mvc Practice\mvcWithEntityF\ModelbussinessLogic\obj\Debug\ModelbussinessLogic.csprojResolveAssemblyReference.cache
